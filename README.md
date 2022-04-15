@@ -1,7 +1,7 @@
 # NumberDifference
 Tugas SWT Praktik
 
-#How To Rum
+# How To Run
 1. Install Sonar Scanner to Environment on your computer
 2. Install Maven, and Java JDK 11.0.14
 3. Download SonarQube
