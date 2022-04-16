@@ -10,4 +10,4 @@ Tugas SWT Praktik
 6. login with your account (if you are new fill username and password with admin)
 7. Create New Project and get token from that project
 8. Go to your command prompt and navigate to this project folder
-9. Run mvn package sonar:sonar -Dsonar.login="<<Your Token From Project>>"
+9. Run mvn package sonar:sonar -Dsonar.login="(Your Token From Project)"
