@@ -55,11 +55,71 @@ public class GroupTest extends NumberDifferenceTest {
 	}
 
     @Test
+	public void Group1_2() { // TC1
+		// (1) setup (arrange, build)
+		int diff;
+		String actual, expected;
+		diff = 5;
+        expected = messageBuilder(diff);
+
+		// (2) exercise (act, operate)
+		actual = sut.groupingDifference(diff);
+
+		// (3) verify (assert, check)
+		assertEquals(expected, actual);
+	}
+
+    @Test
+	public void group1_3() { // TC3
+		// (1) setup (arrange, build)
+		int diff;
+		String actual, expected;
+		diff = 10;
+        expected = messageBuilder(diff);
+
+		// (2) exercise (act, operate)
+		actual = sut.groupingDifference(diff);
+
+		// (3) verify (assert, check)
+		assertEquals(expected, actual);
+	}
+
+    @Test
 	public void Group2() { // TC5
 		// (1) setup (arrange, build)
 		int diff;
 		String actual, expected;
 		diff = 11;
+        expected = messageBuilder(diff);
+
+		// (2) exercise (act, operate)
+		actual = sut.groupingDifference(diff);
+
+		// (3) verify (assert, check)
+		assertEquals(expected, actual);
+	}
+
+    @Test
+	public void Group2_2() { // TC4
+		// (1) setup (arrange, build)
+		int diff;
+		String actual, expected;
+		diff = 15;
+        expected = messageBuilder(diff);
+
+		// (2) exercise (act, operate)
+		actual = sut.groupingDifference(diff);
+
+		// (3) verify (assert, check)
+		assertEquals(expected, actual);
+	}
+
+    @Test
+	public void group2_3() { // TC06
+		// (1) setup (arrange, build)
+		int diff;
+		String actual, expected;
+		diff = 50;
         expected = messageBuilder(diff);
 
 		// (2) exercise (act, operate)

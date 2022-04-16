@@ -35,4 +35,19 @@ public class nTest extends NumberDifferenceTest {
 		// (3) verify (assert, check)
 		assertEquals(expected, actual);
 	}
+
+    @Test
+	public void testInputNBilLuarRange_02() {
+		// (1) setup (arrange, build)
+		int jumlahDeretBil;
+		boolean actual, expected;
+		jumlahDeretBil = 0; // berada pada range 1-10
+		expected = false;
+		
+		// (2) exercise (act, operate)
+		actual = sut.validateRangeInputMaxDeret(jumlahDeretBil);
+		
+		// (3) verify (assert, check)
+		assertEquals(expected, actual);
+	}
 }
