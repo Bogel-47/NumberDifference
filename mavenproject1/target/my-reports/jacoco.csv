@@ -1,5 +1,5 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-NumberDifference,program.NumberDifference,CalcNUmberDifference,108,61,20,7,18,13,14,5,1,3
-NumberDifference,program.NumberDifference,NumberDifferenceFlow,48,0,2,0,15,0,3,0,2,0
+NumberDifference,program.NumberDifference,CalcNUmberDifference,117,61,20,7,21,13,14,5,1,3
+NumberDifference,program.NumberDifference,NumberDifferenceFlow,48,0,2,0,16,0,3,0,2,0
 NumberDifference,program.NumberDifference,App,10,0,0,0,4,0,2,0,2,0
 NumberDifference,program.NumberDifference,Screen,53,0,2,0,17,0,7,0,6,0
